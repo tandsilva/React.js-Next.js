@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 50px;
+            height: 250px;
+            background:#b20710;
+            position: relative;
+
+        }
+            div::before{
+                content: " ";
+                width: 50px;
+                height: 250px;
+                background:#b20710;
+                position: absolute;
+                left: 90px;
+               
+            }
+
+      
+            div::after{
+                content:" " ;
+                width: 175px;
+                height: 20px;
+                background: #000;
+                position: absolute;
+                bottom: -10px;
+                left: -15px;
+                border-radius:  50px;
+               
+            }
+            span{
+                width: 50px;
+                height: 250px;
+                background:#b20710;
+                position: absolute;
+                left: 90px;
+                transform: skew(20deg)
+              
+            }
+            
+   
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <h1>
+            <a href="#">Home</a>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit debitis repellat magnam fugiat. Explicabo temporibus aliquid vitae? Perferendis dolores atque harum earum illum tempore non fuga quidem, cumque ab! Ipsa?</p>
+        <div>Alinhar Algo
+            <span>
+
+            </span>
+        </div>
+    </header>
+    <section>
+        <header>
+            <h2> Roupas Feminas</h2>
+            <article>
+                <h3>Heading 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eius harum, consequuntur alias ex illo saepe ducimus laborum vero commodi fuga porro incidunt soluta sint possimus aut necessitatibus et totam!</p>
+            </article>
+        </header>
+    </section>
+</body>
+</html>
